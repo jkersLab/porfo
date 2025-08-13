@@ -50,29 +50,28 @@ body {
 
 .hero {
   position: relative;
-  height: 50vh;
+  height: 45vh;
   display:grid;
   align-items: center;
   justify-content: center;
   
 }
 .hero-content {
-  position: relative;
-  justify-content: center;
+  position:relative;
+  display: grid;
   align-items: center;
-  margin: 0 auto;
-  display:grid;
+  justify-content: center;
+  margin-bottom: 10vh;
 }
 .animated-shapes {
   display: grid;
   grid-template-columns: repeat(16, 40px);
-  grid-gap: 10px;
+  gap: 0 10px;
   justify-content: center;
   align-items: center;
   position: relative;
   
 }
-
 .square {
   width: 30px;
   height: 30px;
