@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  padding: 65px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff6ec5;
+}
+
+.section p,
+.section li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.skills-list {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #7072e4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: sans-serif;
+  background: #0f0f1c;
+  color: white;
+  overflow-x: hidden;
+}
+
+.hero {
+  position: relative;
+  height: 50vh;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  
+}
+.hero-content {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display:grid;
+}
+.animated-shapes {
+  display: grid;
+  grid-template-columns: repeat(16, 40px);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: #7072e4;
+  z-index: 1;
+}
+
+.square::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #ff6ec500, #d751e9);
+  z-index: -1;
+  filter: blur(4px);
+  border-radius: 6px; 
+}
+.mod-squares {
+  position: relative;
+  bottom: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 2;
+}
+
+.mod-square {
+  width: 40px;
+  height: 40px;
+  background-color: #2ab995;
+  border-radius: 4px;
+  position: relative;
+  
+}
+.mod-square::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #0bd358, #580663);
+  filter: blur(4px);
+}
+nav {
+  background-color: #1a1a2e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #5dade2;
+}
