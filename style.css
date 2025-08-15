@@ -140,9 +140,13 @@ nav {
 }
 
 .nav-links a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
   text-decoration: none;
-  color: white;
-  transition: color 0.3s;
+  font-size: 17px;
 }
 
 .nav-links a:hover {
