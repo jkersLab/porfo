@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="skills.css" />
+</head>
+<body>
+    <div class="nv">
+        <ul class="nav-links">
+            <a href="/porfo/">Home</a>
+            <a href="/porfo/skills.html">Skills</a>
+            <a href="/porfo/projects.html">Projects</a>
+    </div>
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3><u>FTP File Sync Script</u></h3>
+        <p>Using powershell and scheduled tasks, created a script that checked FTP location every hour for new files, if there was, it would download the files down to a file share, and send an email to relevant recipients.</p>
+      </div>
+      <div class="project">
+        <h3><u>Real Time Chat Application</u></h3>
+        <p>Created a real time chat application using Django and Redis. I did not have a lot of experience with Redis or Websockets, and this was a great exercise. Some features included: User registration/authentication , Chat room creation, profile picture selection.
+        Chats are received and updated via websocket, as well as stored in a database as a historical message.
+        </p>
+      </div>
+      <div class="project">
+        <h3><u>Record Collection Website</u></h3>
+        <p>Created a website where I could track Vinyl records in my collection. I used Django to create a database that I could upload record details to. I also integrated the Spotify API where you could play the selected album on the site. This was one of my first projects using Django.</p>
+      </div>
+      <div class="project">
+        <h3><u>Nascar Pool Website</u></h3>
+        <p>Created a website where Family members could pick 10 drivers each week, I would then use available Nascar API's to pull standings after the race is done. Previous weeks were viewable, as well as leaderboards for user scores based on their picks.</p>
+      </div>
+    </section>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

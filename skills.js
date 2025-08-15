@@ -5,7 +5,7 @@ const observer = new IntersectionObserver(entries => {
       anime({
         targets: entry.target,
         opacity: [0, 1],
-        translateY: [50, 0],
+        translateY: [0, 10],
         duration: 2500,
         easing: 'easeOutExpo'
       });
