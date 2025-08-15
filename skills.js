@@ -6,7 +6,7 @@ const observer = new IntersectionObserver(entries => {
         targets: entry.target,
         opacity: [0, 1],
         translateY: [0, 10],
-        duration: 2500,
+        duration: 1500,
         easing: 'easeOutExpo'
       });
       observer.unobserve(entry.target);
@@ -20,7 +20,7 @@ sections.forEach(section => {
 });
 
 const track = document.querySelector('.carousel-track');
-const totalScroll = 999;
+const totalScroll = 1098;
 
 function startLoop() {
   anime({

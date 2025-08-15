@@ -121,13 +121,14 @@ body {
   filter: blur(4px);
 }
 nav {
-  background-color: #1a1a2e;
+  background-color: #222257;
   position: sticky;
   top: 0;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
+  height: auto;
   padding: 1rem 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+  z-index: 9999;
 }
 
 .nav-links {

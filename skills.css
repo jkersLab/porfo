@@ -63,7 +63,7 @@ body {
   object-fit: cover;
   flex-shrink: 0;
 }
-.nv {
+nav {
   background-color: #222257;
   position: fixed;
   top: 0;
@@ -72,27 +72,24 @@ body {
   padding: 1rem 2rem;
   z-index: 9999;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  
 }
 
 
-.nv a {
+
+.nav-links a {
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 10px 16px;
+  padding: 10px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.nv a:hover {
+.nav-links a:hover {
   background: #222257;
   color: black;
 }
 .project {
   margin-bottom: 30px;
-}
-.mtest{
-  margin-top: 30px;
 }
